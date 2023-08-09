@@ -33,7 +33,7 @@ def dolar_blue() -> float:
             pass
 
     if last_price_usd is not None:  # Check if a price was found
-        print("Sale price now" + last_price_usd)
+        print("Sale price now " + last_price_usd)
         return float(last_price_usd)
     else:
         print("No price found")
